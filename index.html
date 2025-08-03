@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <main class="main flex">
+        <div class="calculator-container">
+            <!-- display 상단에 버튼 -->
+            <div class="btns-control">
+                <button class="btn-control left"></button>
+                <button class="btn-control center"></button>
+                <button class="btn-control right"></button>
+            </div>
+
+            <!-- 계산 결과가 보이는 부분 -->
+            <div class="display">
+                <span class="result">0</span>
+            </div>
+
+            <!-- 계산기에 필요한 버튼들 (연산) -->
+            <div class="buttons">
+                <button class="function button top-left-corner reset" value="C">C</button>
+                <button class="function button" value="±">±</button>
+                <button class="function button" value="%">%</button>
+                <button class="operator button top-right-corner" value="/">/</button>
+
+                <button class="number button" value="7">7</button>
+                <button class="number button" value="8">8</button>
+                <button class="number button" value="9">9</button>
+                <button class="operator button" value="*">*</button>
+
+                <button class="number button" value="4">4</button>
+                <button class="number button" value="5">5</button>
+                <button class="number button" value="6">6</button>
+                <button class="operator button" value="-">-</button>
+
+                <button class="number button" value="1">1</button>
+                <button class="number button" value="2">2</button>
+                <button class="number button" value="3">3</button>
+                <button class="operator button" value="+">+</button>
+
+                <button class="zero button bottom-left-corner" value="0">0</button>
+                <button class="dot button" value=".">.</button>
+                <button class="equal button bottom-right-corner" value="=">=</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
